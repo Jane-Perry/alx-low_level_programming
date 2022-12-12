@@ -1,15 +1,2 @@
 #!/bin/bash
-
-cat main.c
-#include <stdio.h>
-
-
-/**
-* main - Entry points
-*
-* Return: always 0 (Success)
-*/
-int main (void)
-{
-        return (0);
-}    
+gcc $CFILE -E -o c
