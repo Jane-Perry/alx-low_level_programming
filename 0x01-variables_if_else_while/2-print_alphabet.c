@@ -7,10 +7,12 @@
  */
 int main(void)
 {
-	char i;
+	char letter;
 
-	putchar("\n\nLower case characters:\n");
-	for (i = 'a'; i <= 'z'; i++)
-		putchar("%c", i);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
 	return (0);
 }
