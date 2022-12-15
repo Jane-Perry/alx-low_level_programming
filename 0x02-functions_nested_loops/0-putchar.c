@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	write('_');
-	write('p');
-	write('u');
-	write('t');
-	write('c');
-	write('h');
-	write('a');
-	write('r');
-	write('\');
+	char test[] = "_putchar";
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(test[c];
+	}
+	_putchar('\n');
+
 	return (0);
 }
