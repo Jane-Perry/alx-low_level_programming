@@ -2,7 +2,7 @@
 
 /**
  * main - print _putchar followed by a new line
- *
+ * defined putchar in header
  * Return: 0
  */
 int main(void)
