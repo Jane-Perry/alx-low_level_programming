@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main- Uses print_alphabet as the main function
- * print_alphabet -The print_alphabet function does not return
- * a value. It prints out all alphabet letters in lowercase
+ * print_alphabet - Prints out all the alphabet in lowercase
  */
 void print_alphabet(void)
 {
