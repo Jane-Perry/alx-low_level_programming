@@ -18,14 +18,10 @@ void times_table(void)
 
 			product = num * mult;
 			if (product <= 9)
-			{
 				_putchar(' ');
-			}
 			else
-			{
 				_putchar((product / 10) + '0');
 				_putchar((product % 10) + '0');
-			}
 		}
 		_putchar('\n');
 	}
