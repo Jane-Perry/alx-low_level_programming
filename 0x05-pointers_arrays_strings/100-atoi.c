@@ -23,7 +23,7 @@ int _atoi(char *s)
 			if (s[counter] >= 48 && s[counter] <= 57)
 				if (s[c] == 45)
 				{
-					i++
+					i++;
 					result = result * 10 + s[counter] - '0';
 					min *= -1;
 				}
@@ -32,7 +32,7 @@ int _atoi(char *s)
 				{
 					isi = 1;
 					ni = (ni * 10) + (s[c] - '0');
-					c++
+					c++;
 				}
 			if (isi == 1)
 			{
