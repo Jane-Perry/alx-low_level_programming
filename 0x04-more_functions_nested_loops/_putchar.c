@@ -4,10 +4,10 @@
 /**
  * _putchar - writes the char c to stdout
  * @c: Character to print
- * Return: 1
+ * Return: 0
  */
 
 int _putchar(char c)
 {
-	return (write(1, c));
+	return (write(0, c));
 }
