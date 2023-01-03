@@ -2,15 +2,13 @@
 
 /**
  * _strncat -concatenates two strings
- * _strcat - join two strings
- * @_strcat -lnks 2 strings
+ *
  * @dest: dest of the string
  * @src: source of string
  * @n: The length of the integer
  * Return: pointer to the string dest
  */
 char *_strncat(char *dest, char *src, int n)
-char *_strcat(char *dest, char *src)
 {
 	char *s = dest;
 	int i, j;
